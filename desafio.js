@@ -22,7 +22,7 @@ const readline = require('node:readline').createInterface({
   output: process.stdout
 })
 readline.question('Escolha o combustivel: ', tipoCombustivel => {
-  console.log(`O tipo de combustivel escolhido foi: ${tipoCombustivel}!`)
+  console.log(`O combustivel escolhido foi: ${tipoCombustivel}!`)
 
   if (tipoCombustivel === 'Gasolina') {
     const gastoGasolina = litrosConsumidos * precoGasolina
