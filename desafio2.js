@@ -25,11 +25,11 @@ const readline = require('node:readline').createInterface({
         console.log(`Sua média é: ${mediaNotas}`);
 
     if (mediaNotas < 5) {
-      console.log('Voce reprovou')
+      console.log('Voce reprovou...')
     } else if (mediaNotas >= 5 && mediaNotas <= 7) {
-      console.log('Voce ficou de recuperacao')
+      console.log('Voce ficou de recuperacao.')
     } else {
-      console.log('Voce foi aprovado')
+      console.log('Voce foi aprovado!')
     }
   
     readline.close()
