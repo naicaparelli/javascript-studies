@@ -16,7 +16,7 @@ const readline = require('node:readline').createInterface({
   
   readline.question('Qual seu peso?', pesoUsuario => {
     const peso = parseFloat(pesoUsuario); // Converte a resposta em número
-    readline.question('Qual sua altura?', alturaUsuario => {
+    readline.question('Qual sua altura em metros?', alturaUsuario => {
       const altura = parseFloat(alturaUsuario); // Converte a resposta em número
         
         const imc = peso / (altura * altura);
